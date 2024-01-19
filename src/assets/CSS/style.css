@@ -1,0 +1,50 @@
+*{
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-image: url('https://i.postimg.cc/PxfjZCs3/bgrd-img3.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.card {
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
